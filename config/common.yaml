@@ -1,0 +1,8 @@
+subcomponents:
+  cloud-native:
+    subcomponents:
+      prometheus-grafana:
+        subcomponents:
+          grafana:
+            config:
+              adminPassword: "supersecretpassword"

@@ -1,0 +1,11 @@
+name: "another-service"
+generator: "static"
+path: "./manifests"
+subcomponents:
+  - name: "service"
+    generator: "helm"
+    path: "../service-chart"
+  - name: "canary"
+    source: "./canary"
+  - name: "stable"
+    source: "./stable"

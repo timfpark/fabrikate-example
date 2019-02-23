@@ -1,0 +1,7 @@
+name: "my-microservices"
+subcomponents:
+  - name: "cloud-native"
+    source: "https://github.com/timfpark/fabrikate-cloud-native"
+    method: "git"
+  - name: "services"
+    source: "./services"

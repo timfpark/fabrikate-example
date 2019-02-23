@@ -1,0 +1,10 @@
+subcomponents:
+  service:
+    config:
+      serviceName: "simple-service"
+  canary:
+    config:
+      serviceName: "simple-service"
+  stable:
+    config:
+      serviceName: "simple-service"

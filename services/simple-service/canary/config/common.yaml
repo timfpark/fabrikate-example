@@ -1,0 +1,4 @@
+config:
+  image: "docker.io/timfpark/simple-service:canary"
+  replicas: 1
+  version: canary

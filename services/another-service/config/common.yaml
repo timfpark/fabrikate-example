@@ -1,0 +1,10 @@
+config:
+  serviceName: "another-service"
+  serviceDNSPrefix: "another"
+subcomponents:
+  canary:
+    config:
+      serviceName: "another-service"
+  stable:
+    config:
+      serviceName: "another-service"

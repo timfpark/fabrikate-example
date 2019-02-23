@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: another-service-configmap
+  namespace: services
+data:
+  MULTIPLIER: "4"

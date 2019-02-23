@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: simple-service-configmap
+  namespace: services
+data:
+  GREETING: "Konichiwa"

@@ -1,0 +1,4 @@
+config:
+  image: "docker.io/timfpark/another-service:stable"
+  replicas: 3
+  version: stable

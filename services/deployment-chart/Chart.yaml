@@ -1,0 +1,8 @@
+name: deployment-chart
+description: Deployment chart for a microservice
+version: 0.1.0
+sources:
+- https://github.com/timfpark/fabrikate-example
+maintainers:
+- name: Tim Park
+  email: tpark@microsoft.com
